@@ -1,0 +1,422 @@
+body{
+  background: white;
+  font-family:arial;
+  overflow-x: hidden;
+}
+ul.navbar-nav li.dropdown:hover ul.dropdown-menu{
+	display: block;
+  color:red;
+  font-size: 14px;
+}
+h1,h2,h3,h4{
+ 
+}
+h2 a{
+	display: inline-block;
+	margin-bottom: -60px;
+	color:black;
+}
+h1 a{
+  display: inline-block;
+  margin-bottom: -60px;
+  color:black;
+}
+h2,h1 a:hover{
+	text-decoration: none;
+	color: darkblue;
+}
+h1,h2,h3{
+	font-family: arial,georgia,serif;
+}
+
+.comments{
+  background: #e6f0ff;
+  margin: 10px;
+  padding: 12px;
+  border-radius:3px;
+  border:1px solid #b3d1ff;
+}
+
+.comments p{
+  font-family: calibri;
+  font-style: italic;
+  font-size: 14px;
+
+}
+.comments span{
+  float: right;
+}
+
+
+.category_plate{
+  background: transparent;
+  color:white;
+  font-weight: bold;
+  padding:5px;
+  border-bottom: 30px solid #800000;
+  border-left: 0px solid transparent;
+  border-right: 35px solid transparent;
+  width: 60%;
+  margin-top: -40px;
+  z-index: 3;
+  position: relative;
+}
+.category_plate span{
+  position: absolute;
+   margin-top: 10px;
+   margin-left: 10px;
+   
+  }
+.hrz_ruler{
+  background:gray;
+  height:1px;
+}
+
+.fb_cmnt{
+  border:1px solid gray;
+}
+.comment_box{
+  border:1px solid #e6e6e6;
+  padding: 10px;
+  background:#f2f2f2;
+}
+.comment_field{
+  width:100%;
+  padding: 8px;
+  margin-top: 10px;
+ 
+  border:1px solid lightgray;
+  outline: none;
+
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border-top: none;
+    background-color: #d9d9d9;
+}
+header{
+  background: black;
+}
+
+.feature_news{
+  width:100%;
+  height:400px;
+  overflow: hidden;
+}
+
+.feature_news img{
+
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.news_img{
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.news_img img{
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+
+.recents{
+  width:100%;
+
+}
+
+/* Style the buttons inside the tab */
+.tab{
+  background: gray;
+}
+div.tab button {
+    background-color: gray;
+    float: left;
+    border: none;
+    /*border-left: 1px solid lightgray;*/
+    outline: none;
+    color:white;
+    cursor: pointer;
+    padding: 10px 0px;
+    transition: 0.3s;
+    font-size: 17px;
+    width:50%;
+    text-align: center;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: white;
+    color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 10px;
+    /*border: 1px solid lightgray;*/
+    border-top: none;
+    background: white;
+     margin: 0px;
+}
+.trading h3{
+  font-size: 15px;
+}
+.trading ul{
+  list-style-type: none;
+  margin-left: -35px;
+}
+.trading ul li{
+  border-bottom:1px dotted lightgray;
+}
+
+.sidebar_content{
+
+  width:100%;
+  background: white;
+  overflow: auto;
+  /*border:1px solid lightgray;*/
+ margin-top: 5px;
+ margin-bottom: 10px;
+}
+.sidebar_content img{
+  width:100%;
+}
+
+.top_mennu{
+  font-size:15px;
+  float:right;
+  color:lightgray;
+  margin-top:-70px;
+  margin-right:20px;
+}
+.top_mennu a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+.top_mennu a:hover{
+  text-decoration: none;
+  color: white;
+}
+.news_title{
+  width:100%;
+  padding:7px;
+  background: purple;
+  /*background: purple url("../../images/bg.png") no-repeat right ;
+  background-size: 80px;
+  /*border-top:2px solid lightgray;*/
+  /*border-right:2px solid lightgray;
+  /*border-left:2px solid lightgray;*/
+  font-style: italic;
+
+}
+.news_title p{
+  font-size: 20px;
+  font-family: century gothic;
+  font-style: italic;
+  color:white;
+  margin:0px;
+  margin-left: 10px;
+}
+.category_homepage{
+  padding: 4px;
+  width:150px;
+  background:darkred;
+  color:white;
+  text-align: center;
+  float:left;
+
+}
+.category_homepage p{
+  font-size: 18px;
+  margin: 0px;
+}
+
+
+#col_design{
+  background:white;
+  /*background: white url("../../images/bg.png") no-repeat -50px -60px ;
+  background-size: 150px;*/
+  border-right:1px solid lightgray;
+  border-top:none;
+  margin-bottom: 3px;
+  padding: 30px;
+
+}
+#col_design ul li{
+  list-style-type: none;
+
+}
+#col_design ul{
+  margin-left: -40px;
+}
+#col_design p{
+  font-size: 17px;
+  font-family: calibri;
+  
+
+}
+
+
+
+/*deign in pages*/
+#page_image{
+  width:100%;
+  height:180px;
+  overflow: hidden;
+}
+#page_image img{
+  width:100%;
+}
+
+.pages_news{
+  width: 100%;
+  /*border:1px solid gray;*/
+  padding: 10px;
+  overflow: auto;
+ margin-top: 10px;
+ box-shadow: 2px 2px 20px lightgray;
+}
+
+
+.archive_design{
+  width: 100%;
+  margin-top: 10px;
+  overflow: auto;
+  background:white;  
+
+}
+
+#archive_box{
+  height:500px;
+  background:red;
+}
+
+#btns{
+
+  width:100%;
+  color:white;
+  font-style:bold;
+}
+#btns a{
+  text-decoration: none;
+  color:white;
+  font-style: bold;
+}
+.news_columns{
+  float:left;
+  background: red;
+}
+.large_advertisment_design{
+  width:98%;
+  /*border:2px solid lightgray;*/
+  margin:5px 5px 5px 5px;
+}
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 0px;
+      margin-top: 10px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+.top-bar{
+  width:100%;
+  height: 25px;
+  padding: 4px;
+  background: white;
+  color: black;
+  font-size: 13px
+}
+
+  a.back-to-top {
+  display: none;
+  width: 50px;
+  height:50px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 50px;
+  background: #2d2d30 url("../../images/up.png") no-repeat center;
+  background-size: 25px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 0px;
+}
+a:hover.back-to-top {
+  background-color: black;
+}
+
+.social{
+  float:right;
+  margin: 10px 0px 10px 0px;
+}
+.social img{
+  width: 35px;
+  margin-left: 20px;
+}
+.social img:hover{
+  opacity: 0.7;
+}
+
+.foot_text{
+  float:left;
+}
+.foot_text p{
+  font-family: calibri;
+  font-size: 16px;
+  margin-bottom: -3px;
+}
+.foot_text li{
+  list-style-type: none;
+  font-family: calibri;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.foot_text h4{
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+.hr{
+  width:100%;
+  
+  float:left;
+  float:right;
+  background: lightgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2d2d30, lightgray, #2d2d30); /* Standard syntax (must be last) */
+}
+.vertical_line{
+  width:1px;
+  height:350px;
+  float:right;
+  background: lightgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2d2d30, lightgray,#2d2d30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2d2d30, lightgray, #2d2d30); /* Standard syntax (must be last) */
+
+}
+@media screen and (max-width:768px) {
+ .vertical_line{
+  visibility: hidden;
+}

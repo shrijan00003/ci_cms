@@ -1,0 +1,5 @@
+1. we can not update the homepage that needs slug for updating that is because the _unique_slug method in page.php controller. so i am keeping it index for now (This is also throwing 404 error for starting page)
+2. we can not add the new pages because of order from edit method
+3. tinyMce can not be integrated with js file 
+4.background image not inserted 
+

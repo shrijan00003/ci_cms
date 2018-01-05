@@ -1,0 +1,5 @@
+1. for printing last query
+echo '<pre>'.$this->db->last_query().'</pre>';
+2.echo CI_VERSION;
+3. $config['log_threshold'] = 1; in config file after throwing any errors in code
+
